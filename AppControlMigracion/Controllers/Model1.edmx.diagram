@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b7761b1e28e741b58cbe27ab28cc5a44" Name="Diagram1">
+        <EntityTypeShape EntityType="DBControlMigracionModel.AUDITORIA" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBControlMigracionModel.DOCUMENTO" Width="1.5" PointX="6" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBControlMigracionModel.ESTADOS" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBControlMigracionModel.MOVIMIENTO" Width="1.5" PointX="6" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBControlMigracionModel.USUARIO" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBControlMigracionModel.VIAJEROS" Width="1.5" PointX="3.75" PointY="6.5" IsExpanded="true" />
+        <AssociationConnector Association="DBControlMigracionModel.FK_Auditoria_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="DBControlMigracionModel.FK_Documento_Viajero" ManuallyRouted="false" />
+        <AssociationConnector Association="DBControlMigracionModel.FK_Movimiento_Estado" ManuallyRouted="false" />
+        <AssociationConnector Association="DBControlMigracionModel.FK_Movimiento_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="DBControlMigracionModel.FK_Movimiento_Viajero" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
